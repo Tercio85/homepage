@@ -1,7 +1,9 @@
 Passo a passo para criar um script em Linux, que instala o Apache2 e exibe uma página HTML simples:
 
-Para criar um script primeiro devemos criar um novo arquivo comum, com o comando ```bash sudo nano script.sh;
-Após declare que isso é um script que deve ser executado com o Bash. Utilizando o comando ```bash #! /bin/bash;
+Para criar um script primeiro devemos criar um novo arquivo comum, com o comando ```bash sudo nano script.sh
+
+Após declare que isso é um script que deve ser executado com o Bash. Utilizando o comando ```bash #! /bin/bash
+
 Atualizar a lista de pacotes do sistema para garantir que tenhamos as versões mais recentes disponíveis, realizando o comando ```bash sudo apt update;
 Em seguida realizar o comando para instalar o apache2, junto com o comando para confirmar a instalação, que é: sudo apt install apache2 -y;
 Crie um diretório específico para sua página html, com o comando sudo mkdir /var/www/homepage;
