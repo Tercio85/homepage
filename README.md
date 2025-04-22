@@ -11,6 +11,9 @@ Em seguida crie uma página html usando os comandos: echo e sudo tee para criar 
 Agora ajuste as permissões com os seguintes comandos: sudo chown -R www-data:www-data /var/www/homepage e sudo chmod -R 755 /var/www/homepage;
 Reinicie o Apache: sudo systemctl restart apache2;
 Após torne o script executável: chmod +x instala_apache.sh;
-Para finalizar execute o script:
-```bash ./instala_apache.sh  . ```
+
+## Para finalizar execute o script:
+```bash ./instala_apache.sh  ```
+
+
 Agora é só acessar o IP do seu servidor no navegador para ver sua página HTML.
