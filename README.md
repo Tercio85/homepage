@@ -11,3 +11,6 @@ Reinicie o Apache: sudo systemctl restart apache2;
 Após torne o script executável: chmod +x instala_apache.sh;
 Para finalizar execute o script: ./instala_apache.sh  .
 Agora é só acessar o IP do seu servidor no navegador para ver sua página HTML.
+
+```bash
+./instala_apache.sh
